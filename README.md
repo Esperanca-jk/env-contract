@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/cover.svg" alt="env-contract project overview" width="100%"></p>
+
 # env-contract
 
 A small, zero-dependency tool for catching configuration mistakes before deployment. It compares variable **names** in an example environment file with names in an actual configuration. Values are never printed.
@@ -42,3 +44,8 @@ Run `node src/cli.js .env.example .env.ci` as a step in your *existing* CI syste
 `npm test` runs the built-in Node.js test runner. Contributions should include tests for behavioral changes. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Licensed under [MIT](LICENSE).
+
+
+---
+
+**Related tool:** [api-breakguard](https://github.com/Esperanca-jk/api-breakguard) — check for breaking changes in json responses.
